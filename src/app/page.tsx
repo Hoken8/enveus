@@ -1,95 +1,78 @@
-import Image from 'next/image'
-import styles from './page.module.css'
+import Image from "next/image";
+import styles from "./page.module.css";
+import RedirectButton from "@/components/button/RedirectButton";
 
 export default function Home() {
   return (
     <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.tsx</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+      <div className={styles.sectionImage}>
+        <div className={styles.backgroundImage}>
+          <Image
+            src="/background001.jpg"
+            alt="background image"
+            fill
+            sizes="100vw"
+            style={{
+              objectFit: "cover",
+              zIndex: "1",
+            }}
+          />
         </div>
-      </div>
-
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <div className={styles.backgroundGradient}></div>
+        <div className={styles.overlay}>
+          <Image
+            src="/enveus-logo.webp"
+            alt="enveus logo"
+            width={384}
+            height={421}
+          />
+          <h1>Enveus Gaming</h1>
+          <br />
+          <br />
           <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore the Next.js 13 playground.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
+            &rsaquo;&rsaquo;&rsaquo;&ensp; Join Us
+            &ensp;&lsaquo;&lsaquo;&lsaquo;
           </h2>
           <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
+            Enveus is a PvX guild striving to be a centralized power in all
+            aspects of Ashes of Creation. Created in 2016, Enveus has built a 18
+            plus semi-hardcore to hardcore player base that focuses on
+            competitive game-play. Our members are highly optimized and
+            extremely supportive resulting in a non-toxic professional
+            environment.
           </p>
-        </a>
+          <br />
+          <RedirectButton
+            url="https://docs.google.com/forms/d/e/1FAIpQLScN52nvchN8ChLaTjYYasNxwNeb9XmvBpstr7j1udlfHEbJzw/viewform"
+            text="APPLY"
+            color="button--orange"
+          />
+        </div>
+      </div>
+      <div className={styles.sectionStats}>
+        <br />
+        <h2>Guild Statistics</h2>
+        <br />
+        <Image
+          src="/classes-banner.png"
+          width={800}
+          height={338}
+          alt="classes banner"
+        />
+        <br />
+        <p>Discord: 1616 Members</p>
+        <p>Community: 408 Members</p>
+        <p>AOC Alpha 2: 275 Members</p>
+        <p>AOC Phoenix initiative: 12 Members</p>
+        <br />
+        <RedirectButton
+          url="https://discord.com/invite/enveus"
+          text="DISCORD"
+          color="button--blue"
+        />
+        <br />
+        <br />
       </div>
     </main>
-  )
+  );
 }

@@ -1,0 +1,40 @@
+.nav {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  height: 60px;
+  padding: 0 10%;
+  background-color: black;
+  border-bottom: 2px solid var(--border-color-primary);
+}
+
+.ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.ul li:hover {
+  color: var(--primary-color-highlight);
+}
+
+.activeLink {
+  color: var(--primary-color-highlight);
+  border-bottom: 2px solid var(--primary-color-highlight);
+}
+
+.menu {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
