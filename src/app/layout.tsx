@@ -9,6 +9,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Enveus Gaming",
   description: "Enveus Gaming a MMO RPG Community for Ashes of Creation",
+  //<meta http-equiv=”Permissions-Policy” content=”interest-cohort=()”>
 };
 
 export default function RootLayout({

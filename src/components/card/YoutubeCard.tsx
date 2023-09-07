@@ -1,4 +1,5 @@
 import { FC } from "react";
+import styles from "./YoutubeCard.module.css";
 
 interface YouTubeCardProps {
   title: string;
@@ -7,43 +8,18 @@ interface YouTubeCardProps {
 
 const YoutubeCard: FC<YouTubeCardProps> = ({ title, url }) => {
   return (
-    <div
-      style={{
-        border: "2px solid rgb(53, 5, 117)",
-        padding: "2px",
-      }}
-    >
-      <div
-        style={{
-          background:
-            "linear-gradient(74deg, rgba(53,5,117,1) 40%, rgba(138,43,226,1) 100%)",
-          padding: "10px 2px",
-        }}
-      >
-        <h3
-          style={{
-            paddingLeft: "10px",
-          }}
-        >
-          {title}
-        </h3>
+    <div className={styles.container}>
+      <div className={styles.inner}>
+        <h3>{title}</h3>
+        <iframe
+          className={styles.video}
+          src={url}
+          title={title}
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowFullScreen
+        ></iframe>
       </div>
-      <iframe
-        width="560"
-        height="315"
-        src={url}
-        title={title}
-        frameBorder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowFullScreen
-      ></iframe>
-      <div
-        style={{
-          background:
-            "linear-gradient(74deg, rgba(53,5,117,1) 40%, rgba(138,43,226,1) 100%)",
-          height: "25px",
-        }}
-      ></div>
     </div>
   );
 };

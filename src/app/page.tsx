@@ -20,12 +20,19 @@ export default function Home() {
         </div>
         <div className={styles.backgroundGradient}></div>
         <div className={styles.overlay}>
-          <Image
-            src="/enveus-logo.webp"
-            alt="enveus logo"
-            width={384}
-            height={421}
-          />
+          <div style={{ width: "25%", height: "25%", position: "relative" }}>
+            <Image
+              src="/enveus-logo.webp"
+              alt="enveus logo"
+              fill
+              sizes="25vw"
+              style={{
+                objectFit: "contain",
+              }}
+              // width={384}
+              // height={421}
+            />
+          </div>
           <h1>Enveus Gaming</h1>
           <br />
           <br />
@@ -53,12 +60,19 @@ export default function Home() {
         <br />
         <h2>Guild Statistics</h2>
         <br />
-        <Image
-          src="/classes-banner.png"
-          width={800}
-          height={338}
-          alt="classes banner"
-        />
+        <div style={{ width: "90%", height: "25vh", position: "relative" }}>
+          <Image
+            src="/classes-banner.png"
+            alt="classes banner"
+            // width={800}
+            // height={338}
+            fill
+            sizes="90vw"
+            style={{
+              objectFit: "contain",
+            }}
+          />
+        </div>
         <br />
         <p>Discord: 1616 Members</p>
         <p>Community: 408 Members</p>

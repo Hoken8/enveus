@@ -38,3 +38,23 @@
   align-items: center;
   gap: 0.5rem;
 }
+
+.hamburger {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .hamburger {
+    display: block;
+    background-color: black;
+    border: 0;
+  }
+
+  .ul {
+    display: none;
+  }
+
+  .icon p {
+    display: none;
+  }
+}
