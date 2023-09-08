@@ -21,7 +21,7 @@ export default function PrimaryNavbar() {
             />
           </div>
         </Link>
-        <ul className={styles.ul}>
+        <ul className={isExpanded ? styles.ulExpanded : styles.ul}>
           <li className={currentRoute === "/" ? styles.activeLink : ""}>
             <Link href={"/"}>Home</Link>
           </li>

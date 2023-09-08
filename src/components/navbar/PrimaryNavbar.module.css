@@ -55,6 +55,26 @@
     display: none;
   }
 
+  .ulExpanded {
+    display: block;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100dvh;
+    background-color: rgb(54, 54, 54);
+    padding: 0.2rem 1rem;
+    list-style-type: none;
+    border-bottom: 2px solid var(--border-color-primary);
+  }
+
+  .ulExpanded li {
+    padding-bottom: 0.2rem;
+  }
+  .activeLink {
+    color: var(--primary-color-highlight);
+    border-bottom: 0px solid var(--primary-color-highlight);
+  }
+
   .user {
     display: none;
   }
