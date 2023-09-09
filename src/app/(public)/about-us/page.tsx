@@ -66,6 +66,7 @@ export default function AboutUsPage() {
             text="Wow Classic Hardcore Realms"
             color="button--blue"
           />
+          <br />
           <RedirectButton
             url="https://albiononline.com/home"
             text="Albion Online"
