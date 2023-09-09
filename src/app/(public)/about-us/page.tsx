@@ -29,15 +29,15 @@ export default function AboutUsPage() {
           </h2>
           <br />
           <p>
-            Enveus is currently the most active guild in Alpha-1 with an
-            undefeated record in sieges.
+            Enveus was the most active guild in Alpha-1 with an undefeated
+            record in sieges.
           </p>
           <br />
           <p>
             The Enveus Community has invested over $100,000 in game packages to
             support and pre-test Ashes of Creation. We have the inside track
             with 10+ Phoenix Initiative Members, hundreds of hours of pre-Alpha
-            testing, and the largest roster with 160+ members with access to
+            testing, and the largest roster with 280+ members with access to
             Alpha-2. Our knowledge and testing covers every facet of the Game
             World (Economics, Crafting, Naval Combat, Open World PVP, Node
             Operations, Siege Warfare, Progressive Raiding, etc.).
@@ -62,8 +62,13 @@ export default function AboutUsPage() {
           />
           <br />
           <RedirectButton
-            url="https://aa-classic.com/"
-            text="ArcheAge Classic"
+            url="https://worldofwarcraft.blizzard.com/en-us/news/23991792/classic-hardcore-realms-now-live"
+            text="Wow Classic Hardcore Realms"
+            color="button--blue"
+          />
+          <RedirectButton
+            url="https://albiononline.com/home"
+            text="Albion Online"
             color="button--blue"
           />
           <br />
