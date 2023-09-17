@@ -74,9 +74,9 @@ export default function Home() {
           />
         </div>
         <br />
-        <p>Discord: 1616 Members</p>
-        <p>Community: 408 Members</p>
-        <p>AOC Alpha 2: 275 Members</p>
+        <p>Discord: 1623 Members</p>
+        <p>Community: 411 Members</p>
+        <p>AOC Alpha 2: 289 Members</p>
         <p>AOC Phoenix initiative: 12 Members</p>
         <br />
         <RedirectButton
