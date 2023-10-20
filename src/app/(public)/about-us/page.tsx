@@ -37,7 +37,7 @@ export default function AboutUsPage() {
             The Enveus Community has invested over $100,000 in game packages to
             support and pre-test Ashes of Creation. We have the inside track
             with 10+ Phoenix Initiative Members, hundreds of hours of pre-Alpha
-            testing, and the largest roster with 289 members with access to
+            testing, and the largest roster with 300+ members with access to
             Alpha-2. Our knowledge and testing covers every facet of the Game
             World (Economics, Crafting, Naval Combat, Open World PVP, Node
             Operations, Siege Warfare, Progressive Raiding, etc.).
