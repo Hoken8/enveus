@@ -77,7 +77,7 @@ export default function Home() {
         <p>Discord: 1650 Members</p>
         <p>Community: 425 Members</p>
         <p>AOC Alpha 2: 300+ Members</p>
-        <p>AOC Phoenix initiative: 12 Members</p>
+        <p>AOC Phoenix Initiative: 12 Members</p>
         <br />
         <RedirectButton
           url="https://discord.com/invite/enveus"
