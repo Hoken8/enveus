@@ -11,6 +11,10 @@ export default function MediaPage() {
       <br />
       <div className={styles.wrap}>
         <YoutubeCard
+          title={"//Ashes of Creation: Alpha 2"}
+          url={"https://www.youtube.com/embed/utOcgt4W7V0"}
+        />
+        <YoutubeCard
           title={"//Ashes of Creation: Recruitment"}
           url={"https://www.youtube.com/embed/muVrY8nvo5g"}
         />
