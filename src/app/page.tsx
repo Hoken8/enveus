@@ -50,7 +50,7 @@ export default function Home() {
           </p>
           <br />
           <RedirectButton
-            url="https://docs.google.com/forms/d/e/1FAIpQLScN52nvchN8ChLaTjYYasNxwNeb9XmvBpstr7j1udlfHEbJzw/viewform"
+            url="https://discord.com/channels/382043633102356482/569265546743250980/1248035144280047761"
             text="APPLY"
             color="button--orange"
           />
