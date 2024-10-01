@@ -43,10 +43,6 @@ export default function AboutUsPage() {
             Operations, Siege Warfare, Progressive Raiding, etc.).
           </p>
           <br />
-          <p>
-            We also have chapters in upcoming MMO&apos;s such as Throne &
-            Liberty, ArcheAge 2, Riot MMO and evaluate any upcoming MMO&apos;s.
-          </p>
           <br />
           <br />
           <RedirectButton
