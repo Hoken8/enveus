@@ -51,17 +51,6 @@ export default function AboutUsPage() {
             color="button--orange"
           />
           <br />
-          <RedirectButton
-            url="https://worldofwarcraft.blizzard.com/en-us/news/23991792/classic-hardcore-realms-now-live"
-            text="Wow Classic Hardcore Realms"
-            color="button--blue"
-          />
-          <br />
-          <RedirectButton
-            url="https://news.blizzard.com/en-us/world-of-warcraft/24029408/world-of-warcraft-classic-season-of-discovery-is-now-live"
-            text="Wow Classic Season of Discovery"
-            color="button--blue"
-          />
           <br />
         </div>
       </div>
