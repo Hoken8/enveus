@@ -38,6 +38,10 @@ export default function PrimaryNavbar() {
           </li>
           <li>
             {/* external link, no need for active class */}
+            <a href="https://raidup.app/raids" target="_blank" rel="noopener noreferrer">Raid-up</a>
+          </li>
+          <li>
+            {/* external link, no need for active class */}
             <a href="https://www.bonfire.com/store/enveus-apparel/">Store</a>
           </li>
           <li>
