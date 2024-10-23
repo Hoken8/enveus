@@ -186,10 +186,6 @@ export default function MediaPage() {
                     available.
                   </li>
                   <li>
-                    Participate in nearby events. Simply killing 1-2 enemies
-                    will reward you with experience once the event is completed.
-                  </li>
-                  <li>
                     When sharing information or screenshots, click the PageUp
                     button on your keyboard to include valuable coordinate data.
                   </li>
@@ -205,6 +201,10 @@ export default function MediaPage() {
                   <li>
                     The first person/group to hit a mob will be awarded the
                     experience and loot for the kill.
+                  </li>
+                  <li>
+                    If you&apos;re being hit by someone and you can&apos;t
+                    attack back, hit &quot;Alt + F&quot; to flag for PVP.
                   </li>
                 </ul>
               </div>
