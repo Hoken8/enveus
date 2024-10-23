@@ -30,6 +30,9 @@ export default function PrimaryNavbar() {
           <li className={currentRoute === "/" ? styles.activeLink : ""}>
             <Link href={"/"}>Home</Link>
           </li>
+          <li className={currentRoute === "/guide" ? styles.activeLink : ""}>
+            <Link href={"/guide"}>Beginners Guide</Link>
+          </li>
           <li className={currentRoute === "/about-us" ? styles.activeLink : ""}>
             <Link href={"/about-us"}>About Us</Link>
           </li>
@@ -38,7 +41,13 @@ export default function PrimaryNavbar() {
           </li>
           <li>
             {/* external link, no need for active class */}
-            <a href="https://raidup.app/raids" target="_blank" rel="noopener noreferrer">Raid-up</a>
+            <a
+              href="https://raidup.app/raids"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Raid-up
+            </a>
           </li>
           <li>
             {/* external link, no need for active class */}
